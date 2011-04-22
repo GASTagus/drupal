@@ -1,6 +1,6 @@
 [submodule "sites/all/themes/genesis"]
 	path = sites/all/themes/genesis
-	url = git@github.com:GASTagus/Theme.git
+	url = git@github.com:GASTagus/theme.git
 [submodule "sites/all/modules/views"]
 	path = sites/all/modules/views
 	url = git://drupalcode.org/project/views.git
@@ -18,4 +18,4 @@
 	url = git://drupalcode.org/project/redirect.git
 [submodule "sites/all/libraries"]
 	path = sites/all/libraries
-	url = git@github.com:GASTagus/Libraries.git
+	url = git@github.com:GASTagus/libraries.git
