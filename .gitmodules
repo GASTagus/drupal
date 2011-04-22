@@ -1,0 +1,18 @@
+[submodule "sites/all/themes/genesis"]
+	path = sites/all/themes/genesis
+	url = git@github.com:GASTagus/Theme.git
+[submodule "sites/all/modules/views"]
+	path = sites/all/modules/views
+	url = file:///home/averissimo/work/share/drupal_modules/views/
+[submodule "sites/all/modules/ctools"]
+	path = sites/all/modules/ctools
+	url = file:///home/averissimo/work/share/drupal_modules/ctools/
+[submodule "sites/all/modules/wysiwyg"]
+	path = sites/all/modules/wysiwyg
+	url = file:///home/averissimo/work/share/drupal_modules/wysiwyg/
+[submodule "sites/all/modules/metatags_quick"]
+	path = sites/all/modules/metatags_quick
+	url = file:///home/averissimo/work/share/drupal_modules/metatags_quick/
+[submodule "sites/all/modules/redirect"]
+	path = sites/all/modules/redirect
+	url = file:///home/averissimo/work/share/drupal_modules/redirect
