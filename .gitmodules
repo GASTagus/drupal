@@ -12,10 +12,10 @@
 	url = git://drupalcode.org/project/wysiwyg/
 [submodule "sites/all/modules/metatags_quick"]
 	path = sites/all/modules/metatags_quick
-	url = git://drupalcode.org/project//metatags_quick/
+	url = git://drupalcode.org/project/metatags_quick/
 [submodule "sites/all/modules/redirect"]
 	path = sites/all/modules/redirect
-	url = git://drupalcode.org/project//redirect
+	url = git://drupalcode.org/project/redirect
 [submodule "sites/all/libraries"]
 	path = sites/all/libraries
 	url = git@github.com:GASTagus/Libraries.git
