@@ -3,16 +3,19 @@
 	url = git@github.com:GASTagus/Theme.git
 [submodule "sites/all/modules/views"]
 	path = sites/all/modules/views
-	url = file:///home/averissimo/work/share/drupal_modules/views/
+	url = git://drupalcode.org/project/views.git
 [submodule "sites/all/modules/ctools"]
 	path = sites/all/modules/ctools
-	url = file:///home/averissimo/work/share/drupal_modules/ctools/
+	url = git://drupalcode.org/project/ctools.git
 [submodule "sites/all/modules/wysiwyg"]
 	path = sites/all/modules/wysiwyg
-	url = file:///home/averissimo/work/share/drupal_modules/wysiwyg/
+	url = git://drupalcode.org/project/wysiwyg/
 [submodule "sites/all/modules/metatags_quick"]
 	path = sites/all/modules/metatags_quick
-	url = file:///home/averissimo/work/share/drupal_modules/metatags_quick/
+	url = git://drupalcode.org/project//metatags_quick/
 [submodule "sites/all/modules/redirect"]
 	path = sites/all/modules/redirect
-	url = file:///home/averissimo/work/share/drupal_modules/redirect
+	url = git://drupalcode.org/project//redirect
+[submodule "sites/all/libraries"]
+	path = sites/all/libraries
+	url = git@github.com:GASTagus/Libraries.git
