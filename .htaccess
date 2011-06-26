@@ -104,8 +104,20 @@ DirectoryIndex index.php index.html index.htm
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
-  # RewriteBase /
+  RewriteBase /
 
+#  Redirect 301 /plataforma2011 http://groups.ist.utl.pt/gastagus/plataforma2011
+#  Redirect 301 /plataforma2010 http://groups.ist.utl.pt/gastagus/plataforma2010a
+
+#RewriteRule ^plataforma2011$ http://plataforma.gastagus.org/2011/
+#RewriteRule ^plataforma2010$ http://plataforma.gastagus.org/2010/
+
+Redirect 301 /plataforma2011 http://plataforma.gastagus.org/2011
+Redirect 301 /plataforma2010 http://plataforma.gastagus.org/2010
+
+
+#  Redirect 301 /plataforma2010 http://plataforma.gastagus.org/2011
+#  Redirect 301 /plataforma2012 http://plataforma.gastagus.org/2010
   # Pass all requests not referring directly to files in the filesystem to
   # index.php. Clean URLs are handled in drupal_environment_initialize().
   RewriteCond %{REQUEST_FILENAME} !-f
@@ -140,3 +152,5 @@ DirectoryIndex index.php index.html index.htm
 </IfModule>
 
 # $Id$
+
+

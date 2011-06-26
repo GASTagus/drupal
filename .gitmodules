@@ -19,3 +19,6 @@
 [submodule "sites/all/libraries"]
 	path = sites/all/libraries
 	url = git@github.com:GASTagus/libraries.git
+[submodule "sites/all/modules/google_analytics"]
+	path = sites/all/modules/google_analytics
+	url = git://git.drupal.org/project/google_analytics.git
