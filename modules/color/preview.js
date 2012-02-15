@@ -1,4 +1,7 @@
-// $Id$
+/**
+ * @file
+ * Attaches preview-related behavior for the Color module.
+ */
 
 (function ($) {
   Drupal.color = {

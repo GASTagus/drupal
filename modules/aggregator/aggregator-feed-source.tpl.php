@@ -1,5 +1,4 @@
 <?php
-// $Id$
 
 /**
  * @file
@@ -18,6 +17,8 @@
  *
  * @see template_preprocess()
  * @see template_preprocess_aggregator_feed_source()
+ *
+ * @ingroup themeable
  */
 ?>
 <div class="feed-source">

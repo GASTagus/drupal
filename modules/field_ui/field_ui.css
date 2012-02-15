@@ -1,5 +1,8 @@
-/* $Id$ */
-
+/**
+ * @file
+ * Stylesheet for the Field UI module.
+ */
+ 
 /* 'Manage fields' and 'Manage display' overviews */
 table.field-ui-overview tr.add-new .label-input {
   float: left; /* LTR */

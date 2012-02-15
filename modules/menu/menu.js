@@ -1,5 +1,3 @@
-// $Id$
-
 (function ($) {
 
 Drupal.behaviors.menuFieldsetSummaries = {
