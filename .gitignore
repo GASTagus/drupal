@@ -4,3 +4,13 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+arquivo/
+blog/
+old/
+static/
+test.php
+plataforma/
+temp/
+testing_arquivo/
+.git_old/
