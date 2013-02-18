@@ -22,3 +22,9 @@
 [submodule "sites/all/modules/google_analytics"]
 	path = sites/all/modules/google_analytics
 	url = git://git.drupal.org/project/google_analytics.git
+[submodule "sites/all/modules/imce"]
+	path = sites/all/modules/imce
+	url = http://git.drupal.org/project/imce.git
+[submodule "sites/all/modules/imce_wysiwyg"]
+	path = sites/all/modules/imce_wysiwyg
+	url = http://git.drupal.org/project/imce_wysiwyg.git

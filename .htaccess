@@ -104,6 +104,10 @@ DirectoryIndex index.php index.html index.htm
   RewriteRule (voluntarios)$ /index?q=$1 [R=301]
   RewriteRule (voluntarios-2009)$ /index?q=$1 [R=301]
   RewriteRule (voluntarios-2010)$ /index?q=$1 [R=301]
+  RewriteRule (voluntarios-2011)$ /index?q=$1 [R=301]
+  RewriteRule (gestao-2009)$ /index?q=$1 [R=301]
+  RewriteRule (gestao-2010)$ /index?q=$1 [R=301]
+  RewriteRule (gestao-2011)$ /index?q=$1 [R=301]
 
   RewriteRule (search/node/.*)$ /index?q=$1 [R=301]
   RewriteRule (user/.*)$ /index?q=$1 [R=301]
