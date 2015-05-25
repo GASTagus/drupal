@@ -58,7 +58,7 @@ DirectoryIndex index.php index.html index.htm
 # Various rewrite rules.
 <IfModule mod_rewrite.c>
   RewriteEngine on
-
+  
   # Block access to "hidden" directories whose names begin with a period. This
   # includes directories used by version control systems such as Subversion or
   # Git to store control files. Files whose names begin with a period, as well
@@ -73,46 +73,7 @@ DirectoryIndex index.php index.html index.htm
   # directories from your webroot or otherwise protect them from being
   # downloaded.
   RewriteRule "(^|/)\." - [F]
-
-  RewriteRule (caminhada)$ /index?q=$1 [R=301]
-  RewriteRule (a-nossa-rede)$ /index?q=$1 [R=301]
-  RewriteRule (angola)$ /index?q=$1 [R=301]
-  RewriteRule (apoios)$ /index?q=$1 [R=301]
-  RewriteRule (cabo-verde)$ /index?q=$1 [R=301]
-  RewriteRule (caminhada)$ /index?q=$1 [R=301]
-  RewriteRule (como-fazemos)$ /index?q=$1 [R=301]
-  RewriteRule (contactos)$ /index?q=$1 [R=301]
-  RewriteRule (doar)$ /index?q=$1 [R=301]
-  RewriteRule (financiamento)$ /index?q=$1 [R=301]
-  RewriteRule (gestao)$ /index?q=$1 [R=301]
-  RewriteRule (historia)$ /index?q=$1 [R=301]
-  RewriteRule (home)$ /index?q=$1 [R=301]
-  RewriteRule (imagem)$ /index?q=$1 [R=301]
-  RewriteRule (junta-te-a-nos)$ /index?q=$1 [R=301]
-  RewriteRule (o-que-fazemos)$ /index?q=$1 [R=301]
-  RewriteRule (o-que-podes-fazer)$ /index?q=$1 [R=301]
-  RewriteRule (orgaos-sociais)$ /index?q=$1 [R=301]
-  RewriteRule (parceiros-internacionais)$ /index?q=$1 [R=301]
-  RewriteRule (parceiros-nacionais)$ /index?q=$1 [R=301]
-  RewriteRule (parcerias)$ /index?q=$1 [R=301]
-  RewriteRule (pilares)$ /index?q=$1 [R=301]
-  RewriteRule (projecto-curta-duracao)$ /index?q=$1 [R=301]
-  RewriteRule (projecto-longa-duracao)$ /index?q=$1 [R=301]
-  RewriteRule (quem-confia-em-nos)$ /index?q=$1 [R=301]
-  RewriteRule (quem-somos)$ /index?q=$1 [R=301]
-  RewriteRule (sao-tome-e-principe)$ /index?q=$1 [R=301]
-  RewriteRule (voluntarios)$ /index?q=$1 [R=301]
-  RewriteRule (voluntarios-2009)$ /index?q=$1 [R=301]
-  RewriteRule (voluntarios-2010)$ /index?q=$1 [R=301]
-  RewriteRule (voluntarios-2011)$ /index?q=$1 [R=301]
-  RewriteRule (gestao-2009)$ /index?q=$1 [R=301]
-  RewriteRule (gestao-2010)$ /index?q=$1 [R=301]
-  RewriteRule (gestao-2011)$ /index?q=$1 [R=301]
-
-  RewriteRule (search/node/.*)$ /index?q=$1 [R=301]
-  RewriteRule (user/.*)$ /index?q=$1 [R=301]
-
-  RewriteRule (admin/.*)$ /index?q=$1 [R=301]
+ 
 
   # If your site can be accessed both with and without the 'www.' prefix, you
   # can use one of the following settings to redirect users to your preferred
