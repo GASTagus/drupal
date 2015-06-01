@@ -1,0 +1,72 @@
+[submodule "google_analytics"]
+  path = sites/all/modules/google_analytics
+  url = http://git.drupal.org/project/google_analytics
+[submodule "sites/all/modules/google_analytics"]
+	path = sites/all/modules/google_analytics
+	url = http://git.drupal.org/project/google_analytics
+[submodule "sites/all/modules/bulk_media_upload"]
+	path = sites/all/modules/bulk_media_upload
+	url = http://git.drupal.org/project/bulk_media_upload
+[submodule "sites/all/modules/ctools"]
+	path = sites/all/modules/ctools
+	url = http://git.drupal.org/project/ctools
+[submodule "sites/all/modules/entity"]
+	path = sites/all/modules/entity
+	url = http://git.drupal.org/project/entity
+[submodule "sites/all/modules/file_entity"]
+	path = sites/all/modules/file_entity
+	url = http://git.drupal.org/project/file_entity
+[submodule "sites/all/modules/imce"]
+	path = sites/all/modules/imce
+	url = http://git.drupal.org/project/imce
+[submodule "sites/all/modules/imce_wysiwyg"]
+	path = sites/all/modules/imce_wysiwyg
+	url = http://git.drupal.org/project/imce_wysiwyg
+[submodule "sites/all/modules/jquery_update"]
+	path = sites/all/modules/jquery_update
+	url = http://git.drupal.org/project/jquery_update
+[submodule "sites/all/modules/libraries"]
+	path = sites/all/modules/libraries
+	url = http://git.drupal.org/project/libraries
+[submodule "sites/all/modules/media-nivo-slider"]
+	path = sites/all/modules/media-nivo-slider
+	url = http://git.drupal.org/project/media-nivo-slider
+[submodule "sites/all/modules/media"]
+	path = sites/all/modules/media
+	url = http://git.drupal.org/project/media
+[submodule "sites/all/modules/media_gallery"]
+	path = sites/all/modules/media_gallery
+	url = http://git.drupal.org/project/media_gallery
+[submodule "sites/all/modules/menu_attributes"]
+	path = sites/all/modules/menu_attributes
+	url = http://git.drupal.org/project/menu_attributes
+[submodule "sites/all/modules/metatags_quick"]
+	path = sites/all/modules/metatags_quick
+	url = http://git.drupal.org/project/metatags_quick
+[submodule "sites/all/modules/multiform"]
+	path = sites/all/modules/multiform
+	url = http://git.drupal.org/project/multiform
+[submodule "sites/all/modules/plupload"]
+	path = sites/all/modules/plupload
+	url = http://git.drupal.org/project/plupload
+[submodule "sites/all/modules/redirect"]
+	path = sites/all/modules/redirect
+	url = http://git.drupal.org/project/redirect
+[submodule "sites/all/modules/single_page_site"]
+	path = sites/all/modules/single_page_site
+	url = http://git.drupal.org/project/single_page_site
+[submodule "sites/all/modules/token"]
+	path = sites/all/modules/token
+	url = http://git.drupal.org/project/token
+[submodule "sites/all/modules/views"]
+	path = sites/all/modules/views
+	url = http://git.drupal.org/project/views
+[submodule "sites/all/modules/wysiwyg"]
+	path = sites/all/modules/wysiwyg
+	url = http://git.drupal.org/project/wysiwyg
+[submodule "sites/all/themes/genesis"]
+	path = sites/all/themes/genesis
+	url = http://git.drupal.org/project/genesis
+[submodule "sites/all/themes/mobile_responsive_theme"]
+	path = sites/all/themes/mobile_responsive_theme
+	url = http://git.drupal.org/project/mobile_responsive_theme
